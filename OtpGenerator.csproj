@@ -1,8 +1,39 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+
+		<PackageId>OtpGenerator08052024</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Harsh B Patel</Authors>
+		<Company>ConvergeSolution</Company>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Title>OTP Generator</Title>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<Description>This most optimal OTP Genrator, you would ever use.</Description>
+		<PackageTags>OTP Generator</PackageTags>		
+		<ApplicationIcon>harsh_logo.ico</ApplicationIcon>		
+		<ImplicitUsings>enable</ImplicitUsings>		
+		<PackageIcon>harsh_logo.png</PackageIcon>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="harsh_logo.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="C:\Users\CS-LCC-11\Downloads\harsh_logo.png">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+		</None>
+		<None Include="D:\Harsh\Projects\Nuget_Packages\OtpGenerator\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="D:\Harsh\Projects\Nuget_Packages\OtpGenerator\LICENSE.txt" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 </Project>
